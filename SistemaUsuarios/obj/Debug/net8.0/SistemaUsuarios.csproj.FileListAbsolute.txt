@@ -28,3 +28,4 @@ E:\SistemaUsuarios\SistemaUsuarios\obj\Debug\net8.0\refint\SistemaUsuarios.dll
 E:\SistemaUsuarios\SistemaUsuarios\obj\Debug\net8.0\SistemaUsuarios.pdb
 E:\SistemaUsuarios\SistemaUsuarios\obj\Debug\net8.0\SistemaUsuarios.genruntimeconfig.cache
 E:\SistemaUsuarios\SistemaUsuarios\obj\Debug\net8.0\ref\SistemaUsuarios.dll
+E:\SistemaUsuarios\SistemaUsuarios\obj\Debug\net8.0\SistemaUsuarios.sourcelink.json
