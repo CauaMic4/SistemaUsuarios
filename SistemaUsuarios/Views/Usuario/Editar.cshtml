@@ -1,0 +1,29 @@
+﻿@model HomeModel
+@{
+    ViewData["Title"] = "Editar usuarios";
+}
+
+<div class="text-center">
+
+    <h1 class="display-4">Editar usuario</h1>
+    </br>
+</div>
+
+<form>
+    <div class="form-group">
+        <label for="nome">Nome</label>
+        <input type="text" class="form-control" placeholder="Digite o nome do Usuario">
+    </div>
+    <div class="form-group">
+        <label for="email">Email</label>
+        <input type="text" class="form-control" placeholder="Digite o email do Usuario">
+    </div>
+    <div class="form-group">
+        <label for="celular">Telefone</label>
+        <input type="text" class="form-control" placeholder="Digite o Numero do Usuario">
+    </div>
+    </br>
+
+    <button type="submit" class="btn btn-primary btn-block">Alterar</button>
+    <a class="btn btn-secondary btn-block" asp-controller="Usuario" asp-action="Index" role="button">Voltar</a>
+</form>
