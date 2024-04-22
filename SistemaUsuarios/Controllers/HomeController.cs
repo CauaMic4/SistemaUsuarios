@@ -6,11 +6,15 @@ namespace SistemaUsuarios.Controllers
 {
     public class HomeController : Controller
     {
-        
+
 
         public IActionResult Index()
         {
-            return View();
+            HomeModel home = new HomeModel();
+            home.Nome = "Cauã Micael";
+            home.Email = "cauamicael@hotmail.com";
+
+            return View(home);
         }
 
         public IActionResult Privacy()
