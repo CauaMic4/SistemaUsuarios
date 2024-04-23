@@ -1,4 +1,14 @@
+using Microsoft.EntityFrameworkCore;
+using SistemaUsuarios.Data;
+using SistemaUsuarios.Repositorio;
+
 var builder = WebApplication.CreateBuilder(args);
+
+
+builder.Services.AddDbContext<BancoContext>(options =>
+options.UseSqlServer(builder.Configuration.GetConnectionString("Database")));
+builder.Services.AddScoped<IUsuarioRepositorio, UsuarioRepositorio>();
+builder.Services.AddControllers();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();

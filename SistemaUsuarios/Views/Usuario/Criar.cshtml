@@ -1,4 +1,4 @@
-﻿@model HomeModel
+﻿@model UsuarioModel
 @{
     ViewData["Title"] = "Criar usuarios";
 }
@@ -9,18 +9,18 @@
     </br>
 </div>
 
-<form>
+<form asp-controller="Usuario" asp-action="Criar" method="post">
     <div class="form-group">
         <label for="nome">Nome</label>
-        <input type="text" class="form-control" placeholder="Digite o nome do Usuario">
+        <input type="text" asp-for="Name" class="form-control" placeholder="Digite o nome do Usuario">
     </div>
     <div class="form-group">
         <label for="email">Email</label>
-        <input type="text" class="form-control" placeholder="Digite o email do Usuario">
+        <input type="text" asp-for="Email" class="form-control" placeholder="Digite o email do Usuario">
     </div>
     <div class="form-group">
         <label for="celular">Telefone</label>
-        <input type="text" class="form-control" placeholder="Digite o Numero do Usuario">
+        <input type="text" asp-for="Phone" class="form-control" placeholder="Digite o Numero do Usuario">
     </div>
     </br>
     

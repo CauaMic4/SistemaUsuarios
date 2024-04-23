@@ -7,20 +7,16 @@
       "RelativeMoniker": "D:0:0:{98FC5905-9E9C-4ABF-86A2-913817D8DAA4}|SistemaUsuarios\\SistemaUsuarios.csproj|solutionrelative:sistemausuarios\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{98FC5905-9E9C-4ABF-86A2-913817D8DAA4}|SistemaUsuarios\\SistemaUsuarios.csproj|e:\\sistemausuarios\\sistemausuarios\\repositorio\\usuariorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98FC5905-9E9C-4ABF-86A2-913817D8DAA4}|SistemaUsuarios\\SistemaUsuarios.csproj|solutionrelative:sistemausuarios\\repositorio\\usuariorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98FC5905-9E9C-4ABF-86A2-913817D8DAA4}|SistemaUsuarios\\SistemaUsuarios.csproj|e:\\sistemausuarios\\sistemausuarios\\repositorio\\iusuariorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98FC5905-9E9C-4ABF-86A2-913817D8DAA4}|SistemaUsuarios\\SistemaUsuarios.csproj|solutionrelative:sistemausuarios\\repositorio\\iusuariorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{98FC5905-9E9C-4ABF-86A2-913817D8DAA4}|SistemaUsuarios\\SistemaUsuarios.csproj|e:\\sistemausuarios\\sistemausuarios\\views\\usuario\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{98FC5905-9E9C-4ABF-86A2-913817D8DAA4}|SistemaUsuarios\\SistemaUsuarios.csproj|solutionrelative:sistemausuarios\\views\\usuario\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98FC5905-9E9C-4ABF-86A2-913817D8DAA4}|SistemaUsuarios\\SistemaUsuarios.csproj|e:\\sistemausuarios\\sistemausuarios\\views\\usuario\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{98FC5905-9E9C-4ABF-86A2-913817D8DAA4}|SistemaUsuarios\\SistemaUsuarios.csproj|solutionrelative:sistemausuarios\\views\\usuario\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98FC5905-9E9C-4ABF-86A2-913817D8DAA4}|SistemaUsuarios\\SistemaUsuarios.csproj|e:\\sistemausuarios\\sistemausuarios\\views\\usuario\\apagarconfirmacao.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{98FC5905-9E9C-4ABF-86A2-913817D8DAA4}|SistemaUsuarios\\SistemaUsuarios.csproj|solutionrelative:sistemausuarios\\views\\usuario\\apagarconfirmacao.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98FC5905-9E9C-4ABF-86A2-913817D8DAA4}|SistemaUsuarios\\SistemaUsuarios.csproj|e:\\sistemausuarios\\sistemausuarios\\views\\usuario\\criar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{98FC5905-9E9C-4ABF-86A2-913817D8DAA4}|SistemaUsuarios\\SistemaUsuarios.csproj|solutionrelative:sistemausuarios\\views\\usuario\\criar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,67 +42,54 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\SistemaUsuarios\\SistemaUsuarios\\Views\\Usuario\\Index.cshtml",
+              "RelativeDocumentMoniker": "SistemaUsuarios\\Views\\Usuario\\Index.cshtml",
+              "ToolTip": "E:\\SistemaUsuarios\\SistemaUsuarios\\Views\\Usuario\\Index.cshtml",
+              "RelativeToolTip": "SistemaUsuarios\\Views\\Usuario\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-23T20:10:13.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "UsuarioController.cs",
               "DocumentMoniker": "E:\\SistemaUsuarios\\SistemaUsuarios\\Controllers\\UsuarioController.cs",
               "RelativeDocumentMoniker": "SistemaUsuarios\\Controllers\\UsuarioController.cs",
               "ToolTip": "E:\\SistemaUsuarios\\SistemaUsuarios\\Controllers\\UsuarioController.cs",
               "RelativeToolTip": "SistemaUsuarios\\Controllers\\UsuarioController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAwAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBAAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T23:15:19.55Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ApagarConfirmacao.cshtml",
-              "DocumentMoniker": "E:\\SistemaUsuarios\\SistemaUsuarios\\Views\\Usuario\\ApagarConfirmacao.cshtml",
-              "RelativeDocumentMoniker": "SistemaUsuarios\\Views\\Usuario\\ApagarConfirmacao.cshtml",
-              "ToolTip": "E:\\SistemaUsuarios\\SistemaUsuarios\\Views\\Usuario\\ApagarConfirmacao.cshtml",
-              "RelativeToolTip": "SistemaUsuarios\\Views\\Usuario\\ApagarConfirmacao.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-22T23:09:12.621Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Editar.cshtml",
-              "DocumentMoniker": "E:\\SistemaUsuarios\\SistemaUsuarios\\Views\\Usuario\\Editar.cshtml",
-              "RelativeDocumentMoniker": "SistemaUsuarios\\Views\\Usuario\\Editar.cshtml",
-              "ToolTip": "E:\\SistemaUsuarios\\SistemaUsuarios\\Views\\Usuario\\Editar.cshtml",
-              "RelativeToolTip": "SistemaUsuarios\\Views\\Usuario\\Editar.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-22T23:05:49.205Z",
+              "WhenOpened": "2024-04-23T19:53:26.533Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\SistemaUsuarios\\SistemaUsuarios\\Views\\Usuario\\Index.cshtml",
-              "RelativeDocumentMoniker": "SistemaUsuarios\\Views\\Usuario\\Index.cshtml",
-              "ToolTip": "E:\\SistemaUsuarios\\SistemaUsuarios\\Views\\Usuario\\Index.cshtml",
-              "RelativeToolTip": "SistemaUsuarios\\Views\\Usuario\\Index.cshtml",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAACcAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-22T22:52:09.469Z",
+              "Title": "UsuarioRepositorio.cs",
+              "DocumentMoniker": "E:\\SistemaUsuarios\\SistemaUsuarios\\Repositorio\\UsuarioRepositorio.cs",
+              "RelativeDocumentMoniker": "SistemaUsuarios\\Repositorio\\UsuarioRepositorio.cs",
+              "ToolTip": "E:\\SistemaUsuarios\\SistemaUsuarios\\Repositorio\\UsuarioRepositorio.cs",
+              "RelativeToolTip": "SistemaUsuarios\\Repositorio\\UsuarioRepositorio.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T19:37:25.064Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Criar.cshtml",
-              "DocumentMoniker": "E:\\SistemaUsuarios\\SistemaUsuarios\\Views\\Usuario\\Criar.cshtml",
-              "RelativeDocumentMoniker": "SistemaUsuarios\\Views\\Usuario\\Criar.cshtml",
-              "ToolTip": "E:\\SistemaUsuarios\\SistemaUsuarios\\Views\\Usuario\\Criar.cshtml",
-              "RelativeToolTip": "SistemaUsuarios\\Views\\Usuario\\Criar.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-22T22:52:04.608Z",
+              "DocumentIndex": 2,
+              "Title": "IUsuarioRepositorio.cs",
+              "DocumentMoniker": "E:\\SistemaUsuarios\\SistemaUsuarios\\Repositorio\\IUsuarioRepositorio.cs",
+              "RelativeDocumentMoniker": "SistemaUsuarios\\Repositorio\\IUsuarioRepositorio.cs",
+              "ToolTip": "E:\\SistemaUsuarios\\SistemaUsuarios\\Repositorio\\IUsuarioRepositorio.cs",
+              "RelativeToolTip": "SistemaUsuarios\\Repositorio\\IUsuarioRepositorio.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T19:37:50.095Z",
               "EditorCaption": ""
             }
           ]
