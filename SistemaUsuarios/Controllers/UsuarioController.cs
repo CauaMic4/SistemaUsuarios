@@ -14,6 +14,7 @@ namespace SistemaUsuarios.Controllers
         public IActionResult Index()
         {
             List<UsuarioModel> usuarios = _usuarioRepositorio.BuscarTodos();
+
             return View(usuarios);
         }
 
@@ -22,15 +23,26 @@ namespace SistemaUsuarios.Controllers
             return View();
         }
 
-        public IActionResult Editar()
+        public IActionResult Editar(int id)
         {
-            return View();
+            UsuarioModel usuario = _usuarioRepositorio.ListarPorId(id);
+
+            return View(usuario);
         }
 
-        public IActionResult ApagarConfirmacao()
+        public IActionResult ApagarConfirmacao(int id)
         {
-            return View();
+            UsuarioModel usuario = _usuarioRepositorio.ListarPorId(id);
+
+            return View(usuario);
         }
+
+        public IActionResult Apagar(int id)
+        {
+            _usuarioRepositorio.Apagar(id);
+            return RedirectToAction("Index");
+        }
+
 
         [HttpPost]
         public IActionResult Criar(UsuarioModel usuario)
@@ -39,5 +51,15 @@ namespace SistemaUsuarios.Controllers
 
             return RedirectToAction("Index");
         }
+
+        [HttpPost]
+        public IActionResult Alterar(UsuarioModel usuario)
+        {
+            _usuarioRepositorio.Atualizar(usuario);
+
+            return RedirectToAction("Index");
+        }
+
+        
     }
 }
