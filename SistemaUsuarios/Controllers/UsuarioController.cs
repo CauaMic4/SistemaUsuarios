@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using SistemaUsuarios.Models;
 using SistemaUsuarios.Repositorio;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace SistemaUsuarios.Controllers
 {
@@ -47,19 +48,50 @@ namespace SistemaUsuarios.Controllers
         [HttpPost]
         public IActionResult Criar(UsuarioModel usuario)
         {
-            _usuarioRepositorio.Adicionar(usuario);
+            try
+            {
+                if (ModelState.IsValid)
+                {
+                    _usuarioRepositorio.Adicionar(usuario);
+                    TempData["MensagemSucesso"] = "Usuario cadastrado com sucesso!";
 
-            return RedirectToAction("Index");
+                    return RedirectToAction("Index");
+                }
+
+                return View(usuario);
+            }
+            catch (System.Exception erro)
+            {
+                TempData["MensagemErro"] = $"Algo deu errado! Detalhe do erro: {erro.Message}";
+
+                return RedirectToAction("Index");
+            }
+
         }
 
         [HttpPost]
         public IActionResult Alterar(UsuarioModel usuario)
         {
-            _usuarioRepositorio.Atualizar(usuario);
+            try
+            {
+                if (ModelState.IsValid)
+                {
+                    _usuarioRepositorio.Atualizar(usuario);
+                    TempData["MensagemSucesso"] = "Usuario editado com sucesso!";
 
-            return RedirectToAction("Index");
+                    return RedirectToAction("Index");
+                }
+
+                return View("Editar", usuario);
+            }
+            catch (System.Exception erro)
+            {
+                TempData["MensagemErro"] = $"Algo deu errado! Detalhe do erro: {erro.Message}";
+
+                 return RedirectToAction("Index");
+            }
         }
 
-        
+
     }
 }

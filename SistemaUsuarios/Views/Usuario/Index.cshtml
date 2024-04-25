@@ -9,6 +9,22 @@
     </div>
     </br>
 
+    @if (TempData["MensagemSucesso"] != null)
+    {
+        <div class="alert alert-success" role="alert">
+            <button class="btn btn-danger btn-sm close-alert" aria-label="Close">X</button>
+            @TempData["MensagemSucesso"]
+        </div>
+    }
+
+    @if (TempData["MensagemErro"] != null)
+    {
+        <div class="alert alert-success" role="alert">
+            <button class="btn btn-primary btn-sm close-alert" aria-label="Close">X</button>
+            @TempData["MensagemErro"]
+        </div>
+    }
+
     <h1 class="display-4">Listagem de usuarios</h1>
 
 
@@ -23,8 +39,9 @@
             </tr>
         </thead>
         <tbody>
-            @if(Model != null && Model.Any()){
-                foreach(UsuarioModel usuario in Model)
+            @if (Model != null && Model.Any())
+            {
+                foreach (UsuarioModel usuario in Model)
                 {
                     <tr>
                         <th scope="row">@usuario.Id</th>
@@ -40,7 +57,6 @@
                     </tr>
                 }
             }
-            
         </tbody>
     </table>
 </div>
