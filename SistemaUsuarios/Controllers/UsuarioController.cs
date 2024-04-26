@@ -40,8 +40,23 @@ namespace SistemaUsuarios.Controllers
 
         public IActionResult Apagar(int id)
         {
-            _usuarioRepositorio.Apagar(id);
-            return RedirectToAction("Index");
+            try
+            {
+                if (ModelState.IsValid)
+                {
+                    _usuarioRepositorio.Apagar(id);
+                    TempData["MensagemSucesso"] = "Usuario deletado com sucesso!";
+
+                    return RedirectToAction("Index");
+                }
+                return View();
+            }
+            catch (System.Exception erro)
+            {
+                TempData["MensagemErro"] = $"Algo deu errado! Detalhe do erro: {erro.Message}";
+
+                return RedirectToAction("Index");
+            }
         }
 
 
@@ -88,7 +103,7 @@ namespace SistemaUsuarios.Controllers
             {
                 TempData["MensagemErro"] = $"Algo deu errado! Detalhe do erro: {erro.Message}";
 
-                 return RedirectToAction("Index");
+                return RedirectToAction("Index");
             }
         }
 

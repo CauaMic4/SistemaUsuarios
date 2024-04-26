@@ -15,13 +15,15 @@ namespace SistemaUsuarios.Repositorio
 
         public UsuarioModel ListarPorId(int id)
         {
-            return _bancoContext.Usuarios.FirstOrDefault(x => x.Id == id);
+            return _bancoContext.Usuarios.FirstOrDefault(x => x.Id == id && x.IsDeleted == false);
         }
 
         public List<UsuarioModel> BuscarTodos()
         {
-            return _bancoContext.Usuarios.ToList();
+            return _bancoContext.Usuarios.Where(x => x.IsDeleted == false).ToList();
         }
+
+
 
         public UsuarioModel Adicionar(UsuarioModel usuario)
         {

@@ -14,6 +14,7 @@ namespace SistemaUsuarios.Models
         [Required(ErrorMessage = "Digite o Numero do usuario")]
         [Phone(ErrorMessage = "O Numero informado não é valido")]
          public string Phone { get; set; }
+        public bool IsDeleted { get; set; }
 
     }
 }
