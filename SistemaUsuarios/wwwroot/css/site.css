@@ -33,3 +33,7 @@ body {
     width: 30px;
     height: 31px;
 }
+
+#myTable {
+    width: 100% !important;
+}
