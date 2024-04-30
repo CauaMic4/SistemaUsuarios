@@ -12,5 +12,6 @@ namespace SistemaUsuarios.Data
         }
 
         public DbSet<UsuarioModel> Usuarios { get; set; }
+        public DbSet<ControleUsersModel> ControleUsers { get; set; }
     }
 }

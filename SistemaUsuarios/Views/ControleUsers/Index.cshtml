@@ -1,11 +1,11 @@
-﻿@model List<UsuarioModel>
+﻿@model List<ControleUsersModel>
 @{
-    ViewData["Title"] = "Listagem de usuarios";
+    ViewData["Title"] = "Controle de usuarios";
 }
 
 <div class="text-center">
     <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-        <a class="btn btn-primary" role="button" asp-controller="Usuario" asp-action="Criar">Adicionar novo usuario</a>
+        <a class="btn btn-primary" role="button" asp-controller="Usuario" asp-action="Criar">Adicionar novo Login</a>
     </div>
     </br>
 
@@ -25,33 +25,35 @@
         </div>
     }
 
-    <h1 class="display-4">Listagem de usuarios</h1>
+    <h1 class="display-4">Controle de usuarios</h1>
 
 
-    <table class="table" id="myTable">
+    <table class="table" id="tableUsers">
         <thead>
             <tr>
                 <th scope="col">#</th>
                 <th scope="col">Nome</th>
+                <th scope="col">Login</th>
                 <th scope="col">Email</th>
-                <th scope="col">Celular</th>
+                <th scope="col">Data de cadastro</th>
                 <th scope="col"></th>
             </tr>
         </thead>
         <tbody>
             @if (Model != null && Model.Any())
             {
-                foreach (UsuarioModel usuario in Model)
+                foreach (ControleUsersModel controleUsuario in Model)
                 {
                     <tr>
-                        <th scope="row">@usuario.Id</th>
-                        <td>@usuario.Name</td>
-                        <td>@usuario.Email</td>
-                        <td>@usuario.Phone</td>
+                        <th scope="row">@controleUsuario.Id</th>
+                        <td>@controleUsuario.Name</td>
+                        <td>@controleUsuario.Login</td>
+                        <td>@controleUsuario.Email</td>                        
+                        <td>@controleUsuario.DataCadastro</td>
                         <td>
                             <div class="btn-group" role="group">
-                                <a role="button" class="btn btn-primary" asp-route-id="@usuario.Id" asp-controller="Usuario" asp-action="Editar">Editar</a>
-                                <a role="button" class="btn btn-danger" asp-route-id="@usuario.Id" asp-controller="Usuario" asp-action="ApagarConfirmacao">Apagar</a>
+                                <a role="button" class="btn btn-primary" asp-route-id="@controleUsuario.Id" asp-controller="ControleUsuario" asp-action="Editar">Editar</a>
+                                <a role="button" class="btn btn-danger" asp-route-id="@controleUsuario.Id" asp-controller="ControleUsuario" asp-action="ApagarConfirmacao">Apagar</a>
                             </div>
                         </td>
                     </tr>
