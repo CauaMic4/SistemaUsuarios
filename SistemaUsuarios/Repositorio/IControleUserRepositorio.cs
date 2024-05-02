@@ -2,7 +2,7 @@
 
 namespace SistemaUsuarios.Repositorio
 {
-    public interface IControleUsuarioRepositorio
+    public interface IControleUserRepositorio
     {
         ControleUsersModel ListarPorId(int id);
         List<ControleUsersModel> BuscarTodos();

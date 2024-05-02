@@ -1,24 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\SistemaUsuarios\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{98FC5905-9E9C-4ABF-86A2-913817D8DAA4}|SistemaUsuarios\\SistemaUsuarios.csproj|e:\\sistemausuarios\\sistemausuarios\\repositorio\\controleusuariorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98FC5905-9E9C-4ABF-86A2-913817D8DAA4}|SistemaUsuarios\\SistemaUsuarios.csproj|solutionrelative:sistemausuarios\\repositorio\\controleusuariorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98FC5905-9E9C-4ABF-86A2-913817D8DAA4}|SistemaUsuarios\\SistemaUsuarios.csproj|e:\\sistemausuarios\\sistemausuarios\\models\\controleusersmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98FC5905-9E9C-4ABF-86A2-913817D8DAA4}|SistemaUsuarios\\SistemaUsuarios.csproj|solutionrelative:sistemausuarios\\models\\controleusersmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98FC5905-9E9C-4ABF-86A2-913817D8DAA4}|SistemaUsuarios\\SistemaUsuarios.csproj|e:\\sistemausuarios\\sistemausuarios\\repositorio\\icontroleusuariorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98FC5905-9E9C-4ABF-86A2-913817D8DAA4}|SistemaUsuarios\\SistemaUsuarios.csproj|solutionrelative:sistemausuarios\\repositorio\\icontroleusuariorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98FC5905-9E9C-4ABF-86A2-913817D8DAA4}|SistemaUsuarios\\SistemaUsuarios.csproj|e:\\sistemausuarios\\sistemausuarios\\controllers\\controleuserscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98FC5905-9E9C-4ABF-86A2-913817D8DAA4}|SistemaUsuarios\\SistemaUsuarios.csproj|solutionrelative:sistemausuarios\\controllers\\controleuserscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -26,34 +9,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": -1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ControleUsuarioRepositorio.cs",
-              "DocumentMoniker": "E:\\SistemaUsuarios\\SistemaUsuarios\\Repositorio\\ControleUsuarioRepositorio.cs",
-              "RelativeDocumentMoniker": "SistemaUsuarios\\Repositorio\\ControleUsuarioRepositorio.cs",
-              "ToolTip": "E:\\SistemaUsuarios\\SistemaUsuarios\\Repositorio\\ControleUsuarioRepositorio.cs",
-              "RelativeToolTip": "SistemaUsuarios\\Repositorio\\ControleUsuarioRepositorio.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAgwAcAAAA7AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T22:14:22.086Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IControleUsuarioRepositorio.cs",
-              "DocumentMoniker": "E:\\SistemaUsuarios\\SistemaUsuarios\\Repositorio\\IControleUsuarioRepositorio.cs",
-              "RelativeDocumentMoniker": "SistemaUsuarios\\Repositorio\\IControleUsuarioRepositorio.cs",
-              "ToolTip": "E:\\SistemaUsuarios\\SistemaUsuarios\\Repositorio\\IControleUsuarioRepositorio.cs",
-              "RelativeToolTip": "SistemaUsuarios\\Repositorio\\IControleUsuarioRepositorio.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T22:11:54.147Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
@@ -65,32 +22,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ControleUsersController.cs",
-              "DocumentMoniker": "E:\\SistemaUsuarios\\SistemaUsuarios\\Controllers\\ControleUsersController.cs",
-              "RelativeDocumentMoniker": "SistemaUsuarios\\Controllers\\ControleUsersController.cs",
-              "ToolTip": "E:\\SistemaUsuarios\\SistemaUsuarios\\Controllers\\ControleUsersController.cs",
-              "RelativeToolTip": "SistemaUsuarios\\Controllers\\ControleUsersController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T21:32:42.575Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ControleUsersModel.cs",
-              "DocumentMoniker": "E:\\SistemaUsuarios\\SistemaUsuarios\\Models\\ControleUsersModel.cs",
-              "RelativeDocumentMoniker": "SistemaUsuarios\\Models\\ControleUsersModel.cs",
-              "ToolTip": "E:\\SistemaUsuarios\\SistemaUsuarios\\Models\\ControleUsersModel.cs",
-              "RelativeToolTip": "SistemaUsuarios\\Models\\ControleUsersModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T19:55:10.057Z",
-              "EditorCaption": ""
             }
           ]
         }
