@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\SistemaUsuarios\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{98FC5905-9E9C-4ABF-86A2-913817D8DAA4}|SistemaUsuarios\\SistemaUsuarios.csproj|e:\\sistemausuarios\\sistemausuarios\\views\\controleusers\\criar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{98FC5905-9E9C-4ABF-86A2-913817D8DAA4}|SistemaUsuarios\\SistemaUsuarios.csproj|solutionrelative:sistemausuarios\\views\\controleusers\\criar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,6 +27,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Criar.cshtml",
+              "DocumentMoniker": "E:\\SistemaUsuarios\\SistemaUsuarios\\Views\\ControleUsers\\Criar.cshtml",
+              "RelativeDocumentMoniker": "SistemaUsuarios\\Views\\ControleUsers\\Criar.cshtml",
+              "ToolTip": "E:\\SistemaUsuarios\\SistemaUsuarios\\Views\\ControleUsers\\Criar.cshtml",
+              "RelativeToolTip": "SistemaUsuarios\\Views\\ControleUsers\\Criar.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAADIAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-03T20:47:25.411Z",
+              "EditorCaption": ""
             }
           ]
         }
